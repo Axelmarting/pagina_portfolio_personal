@@ -2,17 +2,23 @@ header {
     text-align: center;
     /* text-decoration: underline; */
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
-#primerArticulo {
+section {
+    margin-top: 3rem;
+}
+
+#segundoArticulo{
     margin-top: 5rem;
 }
 
-@media screen and (max-width: 1000px) {
-    #primerArticulo img {
-        /* display: flex; */
-        /* justify-content: space-evenly; */
-        align-items: center;
-    }
+
+#primerArticulo div {
+    margin-top: 3rem;
+}
+
+#primerArticulo p {
+    text-align: justify;
+    max-width: 95%;
 }
