@@ -31,25 +31,27 @@
       <section>
         <article>
           <h4 class="marginBottom">Contacto por correo electronico:</h4>
-          <div class="row">
-            <div class="col">
-              <label class="form-label">Ingrese su nombre</label>
-              <input type="text" class="form-control" placeholder="Escriba aqui" aria-label="First name">
+          <form action="https://formsubmit.co/axelmarting2002@gmail.com" method="POST">
+            <div class="row">
+              <div class="col">
+                <label class="form-label">Ingrese su nombre</label>
+                <input type="text" class="form-control" placeholder="Escriba aqui" aria-label="First name" name="name">
+              </div>
+              <div class="col marginBottom">
+                <label class="form-label">Ingrese su apellido</label>
+                <input type="text" class="form-control" placeholder="Escriba aqui" aria-label="Last name">
+              </div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Ingrese su correo electronico</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" name="email">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="comments"></textarea>
             </div>
-            <div class="col marginBottom">
-              <label class="form-label">Ingrese su apellido</label>
-              <input type="text" class="form-control" placeholder="Escriba aqui" aria-label="Last name">
-            </div>
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Ingrese su correo electronico</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
-          <button type="button" class="btn btn-secondary marginBottom">Enviar</button>
+            <button type="submit" class="btn btn-secondary marginBottom">Enviar</button>
+          </form>
         </article>
         <article>
           <div class="marginTop">
