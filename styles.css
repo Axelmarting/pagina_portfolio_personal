@@ -25,12 +25,24 @@ section {
 }
 
 /* ACA EMPIEZA PROYECTOS */
-article h4 {
+#articuloProyectos {
     text-align: center;
-    margin-bottom: 2rem;
 }
 
 /* ACA EMPIEZA CONTACTO */
-.formulario{
+.bi {
+    font-size: 6rem; /* Cambio el tamaño del icono */
+    color: #24292e; /* Cambio el color del icono */
+    margin-right: 1rem;
+}
+
+
+
+/* Clases que se usan en todos */
+.marginBottom{
+    margin-bottom: 1rem;
+}
+
+.marginTop{
     margin-top: 1rem;
 }
