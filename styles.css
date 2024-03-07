@@ -32,7 +32,7 @@ section {
 /* ACA EMPIEZA CONTACTO */
 .bi {
     font-size: 6rem; /* Cambio el tamaño del icono */
-    /* color: #24292e;  */
+    color: grey; 
     margin-right: 1rem;
 }
 
